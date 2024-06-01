@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,10;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  
+}
+
+header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 20px 20px;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 90px;
+    height: 20px;
+}
+
+i{
+   color: #000000;
+   font-size: 25px;
+}
+
+i:hover{
+    color: #a4a4a4;
+}
+
+.search{
+    margin-left: 360px;
+}
+
+.text-search{
+    display: flex;
+}
+
+.searchArea{
+    height: 40px;
+    width: 440px;
+    border: 1px black solid;
+    border-radius: 30px 0 0px 30px;
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchArea input{
+    width: 100%;
+    height: 60%;
+    border: none;
+    margin-left: 1px;
+    background-color: transparent;
+}
+
+.glass{
+    background-color: #f8f8f8;
+    border-radius: 0 30px 30px 0;
+    border: 1px solid black;
+    padding: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.glass:hover{
+    background-color:#e2e2e2;
+}
+ 
+.rigth{
+    margin-left: 360px;
+    display: flex;
+    gap: 20px;
+}
+
+.foto{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    background-image: url('../img/Athena.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-main{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.container-videoPlayer{
+    width: 900px;
+    height: 1537px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.videoPlayer{
+    width: 100%;
+    height: 537px;
+    background-image: url('../img/Jesus.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.tituloVideo{
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.container-acoes{
+    width: 100%;
+    height: 40px;
+    margin-top: -5px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.container-infos{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 250px;
+    padding-left: 15px;
+    flex-direction: column;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.data-view{
+    gap: 60px;
+    display: flex;
+    font-weight: 500;
+}
+
+.logoCanal{
+    border-radius: 100%;
+    height: 40px;
+    width:  40px;
+    background-color: #000000;
+    margin-left: 5px;
+    background-image: url('../img/Athena.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.CanalInfos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nome{
+    margin-top: -8px;
+    font-weight: 900;
+}
+
+.inscritos{
+    margin-top: -12px;
+    color: gray;
+}
+
+.incresver{
+    height: 45px;
+    width: 180px;
+    background-color: #d50000;
+    margin-left: 40px;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.incresver:hover{
+    background-color: #f10000;
+}
+
+.curtida{
+    margin-left: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-videos{
+    width: 370px;
+    height: 900px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-video{
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    padding: 1px;
+    display: flex;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.video{
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.textos{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 10px;
+    padding: 1px;
+    gap: 1px;
+}
+
+.titulo{
+    margin-top: -9px;
+    font-size: 10px;
+}
+
+.tempo{
+    margin-bottom: 29%;
+}
